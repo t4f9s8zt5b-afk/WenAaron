@@ -1,0 +1,15 @@
+{
+  "id": "/",
+  "name": "DAWN — Solana Trading Desk",
+  "short_name": "DAWN",
+  "description": "Solana meme token risk monitoring and paper trading desk",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090d14",
+  "theme_color": "#090d14",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

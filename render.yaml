@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: dawn-solana-trading-desk
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/status
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRADING_MODE
+        value: paper
+      - key: MAX_POSITION_PCT
+        value: 10
+      - key: STOP_LOSS_PCT
+        value: 6
+      - key: MIN_LIQUIDITY_USD
+        value: 40000
+      - key: COOKIE_SECRET
+        generateValue: true
